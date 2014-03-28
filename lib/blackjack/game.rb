@@ -9,7 +9,7 @@ module Blackjack
     end
 
     def play
-      # this needs to an infite loop,
+      # this needs to be an infite loop,
       # unitil the player runs out of money
       # or wants to exit
 
