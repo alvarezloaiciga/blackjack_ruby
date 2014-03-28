@@ -12,7 +12,7 @@ end
 describe Blackjack::Card, "#value" do
   context "J" do
     subject(:card) { described_class.new("J", :hearts) }
-    its(:value) { should == 10 }
+    its(:value) { should == 11 }
   end
 
   context "A" do
