@@ -11,7 +11,7 @@ module Blackjack
       begin
         Integer(number)
       rescue
-        number == "A" ? 1 : 10
+        number == "A" ? 1 : 11
       end
     end
   end
